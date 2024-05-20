@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Multipletests]">
+  <test thread-count="5" parallel="tests" name="testcase1(failed)">
+    <classes>
+      <class name="Assignments.Radiobutton">
+        <methods>
+          <include name="Aftermethod"/>
+          <include name="verifyradiobuttonselected"/>
+          <include name="launchsection"/>
+          <include name="verifyradiobuttonEnabled"/>
+        </methods>
+      </class> <!-- Assignments.Radiobutton -->
+    </classes>
+  </test> <!-- testcase1(failed) -->
+</suite> <!-- Failed suite [Multipletests] -->

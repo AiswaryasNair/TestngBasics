@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoketest">
+	<test name="Logintestcases">
+		<classes>
+			<class name="testngbasics.Basicannotation">
+
+			</class>
+			<class name="testngbasics.BasicTestCases"></class>
+			<class name="testngbasics.NormalTestCase"></class>
+		</classes>
+	</test>
+</suite>
+
